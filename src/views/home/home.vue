@@ -6,6 +6,8 @@
       高速公路施工要素调查数据填报系统
       【都香高速公路项目， 张三】-->
       <div>wo shi szy</div>
+
+      <div>woshi szy123</div>
     </el-header>
     <el-container>
       <el-aside width="600px">
@@ -113,6 +115,24 @@ export default {
           name: "王小虎",
           address: "上海市普陀区金沙江路 1516 弄"
         }
+        // {
+        //   id: 1,
+        //   name: '王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎王小虎',
+        //   address: '上海市普陀区金沙江路 1518 弄'
+        // }, {
+        //   id: 2,
+        //   name: '王小虎',
+        //   address: '上海市普陀区金沙江路 1517 弄'
+        // }, {
+        //   id: 3,
+        //   name: '王小虎',
+        //   address: '上海市普陀区金沙江路 1519 弄',
+        //   hasChildren: true
+        // }, {
+        //   id: 4,
+        //   name: '王小虎',
+        //   address: '上海市普陀区金沙江路 1516 弄'
+        // }
       ],
       formInline: {
         user: "",
@@ -160,6 +180,10 @@ export default {
         ]);
       }, 1000);
     },
+    handleEdit(index, row) {
+      console.log(index, row);
+    },
+
     handleEdit(index, row) {
       console.log(index, row);
     },

@@ -13,6 +13,7 @@
         <el-card class="left-card">
           <div slot="header" class="clearfix">
             <span>WBS结构树</span>
+            <div>woshi szy123</div>
           </div>
           <div class="left-card-body u_scrollBar">
             <el-table

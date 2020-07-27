@@ -14,6 +14,7 @@
         <el-card class="left-card">
           <div slot="header" class="clearfix">
             <span>WBS结构树</span>
+            <div>13212312311111111111111111111111111111111111111</div>
           </div>
           <div class="left-card-body u_scrollBar">
             <el-table

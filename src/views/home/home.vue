@@ -8,8 +8,12 @@
       <div>wo shi szy</div>
 
       <div>woshi szy123</div>
+<<<<<<< Updated upstream
       <div>woshi szy11211111111123</div>
 
+=======
+      <div>2020/8/26 9:00 add</div>
+>>>>>>> Stashed changes
     </el-header>
     <el-container>
       <el-aside width="600px">
